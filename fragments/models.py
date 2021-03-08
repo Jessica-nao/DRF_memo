@@ -12,4 +12,3 @@ class Fragment(models.Model):
     member = models.ForeignKey(User, on_delete=PROTECT, )
     fixed = models.BooleanField('確定', default=False, )
 
-
